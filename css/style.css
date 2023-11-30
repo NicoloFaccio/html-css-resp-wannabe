@@ -144,12 +144,43 @@ img {
 
     .lessons .col ,
     .lessons .col img ,
-    .steps .row .col {
-        width: 80%;
+    .steps .row .col , 
+    .why-us .row .col-left ,
+    .why-us .row .col-right, 
+    .why-us .container h2 {
+        width: 90%;
+        margin: 0 auto;
     }
 
-    
+    body {
+        background-color: rgba(34, 34, 34, 1);
+    }
 
+    header , .lessons {
+        background: #232946;
+    }
+
+    .site-header {
+        padding-top: 3em;
+        margin-top: 0;
+    }
+
+    .site-header > h1 {
+        padding-bottom: 2em;
+        margin-bottom: 0;
+    }
+
+    .steps {
+        margin-top: 0;
+    }
+
+    .lessons .container .row  div.col:nth-child(2) {
+        padding-bottom: 2em;
+    }
+
+    .why-us .row .col-left img {
+        padding-block: 2em;
+    }
 }
 
 
